@@ -1,0 +1,55 @@
+// React Component names must always start with a capital letter
+
+// HTML is lower case 
+
+// MDN & javascript.info web for reference 
+
+// HTML TO JSX Online Converter 
+https://transform.tools/html-to-jsx
+
+// styling in css: use "className"
+<img src="image.jpg" className="myimage" />
+.myimage {
+    width: 200px;
+}
+style={{  }}
+# regular {} object inside style={} 
+
+
+// Conditional Rendering 
+- if usage 
+- ? && usage 
+
+// Rendering List 
+- array ထဲက data ထုတ်တာ စမ်းရန်
+- object ထဲက key value ထုတ်တာ စမ်းရန်
+- object ထဲက data ထုတ်တာ စမ်းရန် 
+
+// Responding to Events 
+?? What is the difference between Function and a component in React 
+<button onClick={someFunction}>Click Event</button>
+# Event Handler Function has no parentheses
+# Only Need To Pass It Down 
+?? So why did it work with anonymous function usage {() => someFunction()}
+
+// Updating the Screen 
+useState တွေရဲ့ အလုပ်လုပ်ပုံ
+ဆိုလိုချင်တာ Hook တွေ အလုပ်လုပ်ပုံကို သိချင်တာ 
+
+// Using Hooks 
+use ပါတဲ့ function တိုင်းက HOOK လို့သတ်မှတ်လို့ရ 
+# Built in hooks Link 
+https://react.dev/reference/react
+
+# ကိုယ်ပိုင် hook တွေလဲ ဖန်တီးလို့ရ 
+
+# တခြား function တွေထက် restrictive  ပို  ဖြစ်တယ်​ 
+
+# call Hooks at the top of our component 
+
+# useState ကို condition or loop ထဲမှာ သုံးချင်တယ်ဆိုရင် New Component တစ်ခုအဖြစ် extract လုပ်ပြီး အဲ့ထဲထည့်ပါ။​
+
+
+
+// Sharing Data Between Components 
+
